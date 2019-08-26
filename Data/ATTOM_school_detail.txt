@@ -1,0 +1,222 @@
+{
+  "status": {
+    "version": "1.0.0",
+    "code": 0,
+    "msg": "SuccessWithResult",
+    "total": 1,
+    "page": 1,
+    "pagesize": 10,
+    "responseDateTime": null,
+    "transactionID": null
+  },
+  "school": [
+    {
+      "Identifier": {
+        "OBInstID": "00577405"
+      },
+      "SchoolProfileAndDistrictInfo": {
+        "SchoolLocation": {
+          "COUNTY3": "189",
+          "COUNTYNAME": "ST. LOUIS COUNTY",
+          "COUNTY": "29189",
+          "geocodinglatitude": 38.559507,
+          "geocodinglongitude": -90.322172,
+          "locationaddress": "8309 MACKENZIE RD",
+          "locationcity": "SAINT LOUIS",
+          "fipsState": "29",
+          "stateabbrev": "MO",
+          "zip54": "63123-3455",
+          "ZIP": "63123",
+          "Obdistrictnumber": "5700042388",
+          "districttype": "REGULAR LOCAL SCHOOL DISTRICT",
+          "districtname": "AFFTON SCHOOL DISTRICT 101",
+          "geoid": "SB0000096202"
+        },
+        "SchoolSummary": {
+          "Filetypetext": "PUBLIC",
+          "buildingtypetext": "REGULAR SCHOOL",
+          "institutionname": "AFFTON HIGH SCHOOL",
+          "startDate": "08/13",
+          "endDate": "05/22",
+          "gradelevel1lotext": "9TH GRADE",
+          "gradelevel1hitext": "12TH GRADE",
+          "gradelevel1locode": "09",
+          "gradelevel1hicode": "12",
+          "gradespancodebldgtext": "9-12",
+          "Preschool": null,
+          "Elementary": null,
+          "Middle": null,
+          "High": "Y",
+          "GStestrating": 4
+        },
+        "SchoolContact": {
+          "phone": "314-638-6330",
+          "Prefixliteral": "Dr",
+          "Firstname": "Vince",
+          "Lastname": "Powell",
+          "Gender": "U",
+          "Englishtitle": "Principal",
+          "Websiteurl": "http://ahs.afftonschools.net/"
+        },
+        "SchoolDetail": {
+          "educationClimateIndex": "BELOW AVERAGE",
+          "advancedPlacement": "Y",
+          "beforeandafterschoolprgms": "N",
+          "blueribbonschool": "N",
+          "charterschools": "N",
+          "giftedandtalented": "N",
+          "internationbaccalaureate": "N",
+          "magnetschool": "N",
+          "sitebased": "N",
+          "collegebound": 91,
+          "voctech": "Y",
+          "adulteducationclasses": "N",
+          "adultother": null,
+          "specialeducation": "Y",
+          "alterantiveprogram": "N",
+          "yearroundclasses": "N",
+          "ESL": "Y",
+          "Povertylevel": "6 - 15.9 PERCENT",
+          "Instructionalexpensepupil": 5669,
+          "AYPschool": "N"
+        },
+        "SchoolTech": {
+          "Technologymeasuretype": "NOT REPORTED",
+          "Computergrandtotal": 0,
+          "OStype": "NOT REPORTED"
+        },
+        "SchoolEnrollment": {
+          "Enrollmentbygradeprek": 0,
+          "Enrollmentbygradekgtn": 0,
+          "Enrollmentbygradeone": 0,
+          "Enrollmentbygradetwo": 0,
+          "Enrollmentbygradethree": 0,
+          "Enrollmentbygradefour": 0,
+          "Enrollmentbygradefive": 0,
+          "Enrollmentbygradesix": 0,
+          "Enrollmentbygradeseven": 0,
+          "Enrollmentbygradeeight": 0,
+          "Enrollmentbygradenine": 192,
+          "Enrollmentbygradeten": 185,
+          "Enrollmentbygradeeleven": 198,
+          "Enrollmentbygradetwelve": 182,
+          "Enrollmentshift": "-5% to -10%",
+          "Studentsnumberof": 799,
+          "Studentsgrade": 199,
+          "Studentteacher": "19"
+        },
+        "DistrictSummary": {
+          "Obdistrictnumber": "5700042388",
+          "districttype": "REGULAR LOCAL SCHOOL DISTRICT",
+          "districtname": "AFFTON 101 SCHOOL DISTRICT",
+          "COUNTY3": "189",
+          "COUNTYNAME": "ST. LOUIS COUNTY",
+          "COUNTY": "29189",
+          "latitude": 38.554482,
+          "longitude": -90.323303,
+          "locationaddress": "8701 MACKENZIE RD",
+          "locationcity": "SAINT LOUIS",
+          "fipsState": "29",
+          "stateabbrev": "MO",
+          "zip54": "63123-3436",
+          "ZIP": "63123",
+          "phone": "314-638-8770",
+          "startDate": "08/13",
+          "endDate": "05/22",
+          "GStestrating": 3
+        },
+        "DistrictContact": {
+          "Prefixliteral": "Mr",
+          "Firstname": "Steve",
+          "Lastname": "Brotherton",
+          "Gender": "M",
+          "Englishtitle": "Superintendent",
+          "Websiteurl": "http://afftonschools.net/"
+        },
+        "MeasurementResults": [
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Government",
+            "grade": "EOC",
+            "measure": "78.3",
+            "insttype": "School"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "English II",
+            "grade": "EOC",
+            "measure": "70",
+            "insttype": "School"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Algebra II",
+            "grade": "EOC",
+            "measure": "32.2",
+            "insttype": "School"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Algebra I",
+            "grade": "EOC",
+            "measure": "50",
+            "insttype": "School"
+          }
+        ],
+        "MeasurementType": [
+          {
+            "measureTypeId": "MO00041",
+            "measuretype": "Test",
+            "measureunits": "Percent of Students",
+            "measurename": "Missouri Assessment Program",
+            "measureabbrev": "MAP",
+            "resulttype": "Percent meeting expectations",
+            "scaledefinition": "% proficient or better",
+            "rankmax": "100",
+            "year": "2018",
+            "purposedescription": "The Assessment section provides professional services related to the Missouri Assessment Program (MAP) and the National Assessment of Educational Progress (NAEP)."
+          }
+        ],
+        "Programs": [
+          "Inter-Scholatics Sports - Basketball",
+          "Fine Arts - Fine Arts",
+          "Vocational Education - Business and Technology",
+          "Math - Math",
+          "Inter-Scholatics Sports - Track",
+          "English - ESL/Bilingual/ESOL",
+          "Inter-Scholatics Sports - Cross Country",
+          "Computer Science - General",
+          "Special Education - Gifted Students",
+          "Vocational Education - Vocational Education",
+          "Special Education - Occupational Therapists",
+          "Music - Music",
+          "Arts - Art",
+          "Vocational Education - Phys Ed",
+          "English - English / Language Arts",
+          "Foreign Language - Foreign Language",
+          "Science - Science",
+          "Inter-Scholatics Sports - Softball",
+          "Special Education - Physical Therapists",
+          "Inter-Scholatics Sports - Golf",
+          "Inter-Scholatics Sports - Wrestling",
+          "Music - Band",
+          "Inter-Scholatics Sports - General",
+          "Athletics - Physical Education",
+          "Special Education - Early Childhood Special Needs",
+          "Social Studies / Social Sciences - Social Studies / Social Sciences",
+          "Inter-Scholatics Sports - Swimming",
+          "Inter-Scholatics Sports - Soccer",
+          "Inter-Scholatics Sports - Football",
+          "Inter-Scholatics Sports - Volleyball"
+        ]
+      },
+      "Vintage": {
+        "onboardDate": "2019-7-17"
+      }
+    }
+  ]
+}
