@@ -1,0 +1,277 @@
+{
+  "status": {
+    "version": "1.0.0",
+    "code": 0,
+    "msg": "SuccessWithResult",
+    "total": 1,
+    "page": 1,
+    "pagesize": 10,
+    "responseDateTime": null,
+    "transactionID": null
+  },
+  "school": [
+    {
+      "Identifier": {
+        "Obdistrictnumber": "5700042388"
+      },
+      "ProfilesAndTestScores": {
+        "DistrictSummary": {
+          "districttype": "REGULAR LOCAL SCHOOL DISTRICT",
+          "districtname": "AFFTON 101 SCHOOL DISTRICT",
+          "county3": "189",
+          "countyName": "ST. LOUIS COUNTY",
+          "county": "29189",
+          "latitude": 38.554482,
+          "longitude": -90.323303,
+          "locationaddress": "8701 MACKENZIE RD",
+          "locationcity": "SAINT LOUIS",
+          "fipsState": "29",
+          "stateabbrev": "MO",
+          "zip54": "63123-3436",
+          "zip": "63123",
+          "phone": "314-638-8770",
+          "startDate": "08/13",
+          "endDate": "05/22",
+          "GStestrating": 3
+        },
+        "DistrictContact": {
+          "Prefixliteral": "Mr",
+          "Firstname": "Steve",
+          "Lastname": "Brotherton",
+          "Gender": "M",
+          "Englishtitle": "Superintendent",
+          "Websiteurl": "http://afftonschools.net/"
+        },
+        "DistrictDetail": {
+          "educationClimateIndex": "BELOW AVERAGE",
+          "advancedPlacement": "Y",
+          "beforeandafterschoolprgms": "Y",
+          "blueribbonschool": "N",
+          "charterschools": "N",
+          "bilingualeducation": "Y",
+          "giftedandtalented": "Y",
+          "internationbaccalaureate": "N",
+          "magnetschool": "N",
+          "sitebased": "N",
+          "povertypercentage": 12,
+          "technologymeasuretext": null,
+          "totaldollarexpenditures": 16025000,
+          "instructionalexpensepupil": "$5,301.00 - $5,700.00",
+          "AYPschools": 4,
+          "AYPschoolspercent": 100,
+          "NCLBschools": 4,
+          "NCLBschoolspercent": 100
+        },
+        "DistrictSchoolInfo": {
+          "Teachersprofessionalstaff": 200,
+          "Gradespancodedistricttext": "K-12",
+          "Gradelevel1lotext": "PRESCHOOL",
+          "Gradelevel1hitext": "12TH GRADE",
+          "Numberofschools": 5,
+          "Countelementary": 2,
+          "Countmiddle": 1,
+          "Counthigh": 1,
+          "Voctech": "Y",
+          "Adulteducationclasses": "Y",
+          "Yearroundclasses": "N",
+          "Studentsnumberof": 2827,
+          "Studentsorvolumesdistrict": "2,500 - 4,999"
+        },
+        "DistrictEnrollment": {
+          "Enrollmentbygradeprek": 0,
+          "Enrollmentbygradekgtn": 234,
+          "Enrollmentbygradeone": 207,
+          "Enrollmentbygradetwo": 202,
+          "Enrollmentbygradethree": 200,
+          "Enrollmentbygradefour": 202,
+          "Enrollmentbygradefive": 169,
+          "Enrollmentbygradesix": 191,
+          "Enrollmentbygradeseven": 191,
+          "Enrollmentbygradeeight": 194,
+          "Enrollmentbygradenine": 192,
+          "Enrollmentbygradeten": 185,
+          "Enrollmentbygradeeleven": 198,
+          "Enrollmentbygradetwelve": 182,
+          "Enrollmentshift": "+1% to +5%"
+        },
+        "measurementresults": [
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Communication Arts",
+            "grade": "3",
+            "measure": "48.5",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Mathematics",
+            "grade": "3",
+            "measure": "48.1",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Mathematics",
+            "grade": "4",
+            "measure": "39.3",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Communication Arts",
+            "grade": "4",
+            "measure": "44.9",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Communication Arts",
+            "grade": "5",
+            "measure": "46.2",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Mathematics",
+            "grade": "5",
+            "measure": "33.7",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Mathematics",
+            "grade": "6",
+            "measure": "31.9",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Communication Arts",
+            "grade": "6",
+            "measure": "44.2",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Communication Arts",
+            "grade": "7",
+            "measure": "40.4",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Mathematics",
+            "grade": "7",
+            "measure": "31.2",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Communication Arts",
+            "grade": "8",
+            "measure": "46.6",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Government",
+            "grade": "EOC",
+            "measure": "78.3",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "English II",
+            "grade": "EOC",
+            "measure": "70",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Algebra I",
+            "grade": "EOC",
+            "measure": "60.2",
+            "insttype": "District"
+          },
+          {
+            "measureTypeId": "MO00041",
+            "year": "2018",
+            "subjectName": "Algebra II",
+            "grade": "EOC",
+            "measure": "32.2",
+            "insttype": "District"
+          }
+        ],
+        "measurementtype": [
+          {
+            "measureTypeId": "MO00041",
+            "measuretype": "Test",
+            "measureunits": "Percent of Students",
+            "measurename": "Missouri Assessment Program",
+            "measureabbrev": "MAP",
+            "resulttype": "Percent meeting expectations",
+            "scaledefinition": "% proficient or better",
+            "rankmax": "100",
+            "year": "2018",
+            "purposedescription": "The Assessment section provides professional services related to the Missouri Assessment Program (MAP) and the National Assessment of Educational Progress (NAEP)."
+          }
+        ],
+        "programs": [
+          "Athletics - Physical Education",
+          "Inter-Scholatics Sports - Track",
+          "Inter-Scholatics Sports - Cross Country",
+          "Special Education - Gifted Students",
+          "Vocational Education - Business and Technology",
+          "Vocational Education - Vocational Education",
+          "Music - Band",
+          "Special Education - Early Childhood Special Needs",
+          "Fine Arts - Fine Arts",
+          "Inter-Scholatics Sports - Volleyball",
+          "Inter-Scholatics Sports - Basketball",
+          "Inter-Scholatics Sports - Swimming",
+          "Inter-Scholatics Sports - Soccer",
+          "Before and After School",
+          "Science - Science",
+          "Special Education - Occupational Therapists",
+          "Foreign Language - Foreign Language",
+          "Inter-Scholatics Sports - Wrestling",
+          "Computer Science - General",
+          "Inter-Scholatics Sports - Football",
+          "Special Education - Physical Therapists",
+          "Special Education - Speech/Language Pathologists",
+          "Music - Music",
+          "English - ESL/Bilingual/ESOL",
+          "Inter-Scholatics Sports - General",
+          "Math - Math",
+          "Music - Orchestra",
+          "Inter-Scholatics Sports - Softball",
+          "Inter-Scholatics Sports - Golf",
+          "Arts - Art",
+          "Vocational Education - Health",
+          "Vocational Education - Phys Ed",
+          "Fine Arts - Drama",
+          "Social Studies / Social Sciences - Social Studies / Social Sciences",
+          "English - Journalism",
+          "English - English / Language Arts"
+        ]
+      },
+      "Vintage": {
+        "onboardDate": "2019-7-17"
+      }
+    }
+  ]
+}
