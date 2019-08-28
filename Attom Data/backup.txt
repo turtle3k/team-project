@@ -1,0 +1,85 @@
+
+#Dependencies
+import requests
+import json
+import pandas as pd
+import numpy as np
+from pprint import pprint
+
+
+base_url = "https://api.gateway.attomdata.com/propertyapi/v1.0.0/school/districtdetail?id="
+school_id = "5700086424"
+url = base_url + school_id
+
+# Attom API key
+from config import attom_data
+attom_data
+
+r=requests.get(url, headers={"accept":"application/json","apikey":attom_data})
+r
+
+
+school_data = r.json()
+school_data
+
+#base_url2 = "https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/snapshot?postalcode=03768&minavmvalue=80000&maxavmvalue=200000"
+#r2=requests.get(base_url2, headers={"accept":"application/json","apikey":attom_data})
+#prop_data = r2.json()
+
+
+
+
+#"name": "Sales (snapshot) by postal code",
+
+base_url = "https://api.gateway.attomdata.com/propertyapi/v1.0.0/sale/snapshot?postalcode=63123&page=1&pageSize=20"
+s = requests.get(base_url, headers={"accept":"application/json", "apikey":attom_data})
+s
+
+sales_data = r.json()
+sales_data
+
+
+
+# School detail - curl -X GET --header 'Accept: application/json' --header 'apikey: 736f1130096aa92549d800921bca8e8c' 'https://api.gateway.attomdata.com/propertyapi/v1.0.0/school/detail?id=00582204'
+sd_url = "https://api.gateway.attomdata.com/propertyapi/v1.0.0/school/detail?id=00582204"
+
+#sd = requests.get(base_url, headers={"accept":"application/json", "apikey":attom_data})
+sd = requests.get(sd_url, headers={"Accept":"application/json", "apikey":attom_data})
+sd
+
+school_detail = sd.json()
+school_detail
+
+# Set variables for the school detail we want - for example
+# s_climate_index = []     #'SchoolDetail''educationClimateIndex'
+# s_ap = []     #'SchoolDetail''advancedPlacement'
+# s_blue = []     #'SchoolDetail''blueribbonschool'
+# s_gifted = []     #'SchoolDetail''giftedandtalented'
+# s_ib = []     #'SchoolDetail''internationbaccalaureate'
+# s_collegebound = []     #'SchoolDetail''collegebound'
+# s_poverty = []     #'SchoolDetail''Povertylevel'
+# s_pupilexp = []     #'SchoolDetail''Instructionalexpensepupil'
+school_details = []
+
+
+# import the csv file - need OBInstID in either a list or df
+# **NOTE using list temporarily to test
+OBInstID_list = ['577405','1524889']
+# Set School detail url
+# sd_url = "https://api.gateway.attomdata.com/propertyapi/v1.0.0/school/detail?id=00582204"
+sd_url = "https://api.gateway.attomdata.com/propertyapi/v1.0.0/school/detail?id="
+
+for OBID in OBInstID_list:
+    sd = requests.get(sd_url + OBID, headers={"accept":"application/json", "apikey":attom_data}).json()
+    school = sd['school'][0]
+    school_detail = school['SchoolProfileAndDistrictInfo']['SchoolDetail']
+    school_details.append(school_detail)
+    ##sd = requests.get(sd_url, headers={"Accept":"application/json", "apikey":attom_data})
+    #print(sd)
+    #print(base_url + OBID)
+    #s_climate_index.append(sd['school'][0]['SchoolDetail'])
+#     s_climate_index.append(sd['school'])
+#     pprint(s_climate_index)
+
+pd.DataFrame(school_details)
+
